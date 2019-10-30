@@ -1,0 +1,185 @@
+$color:#6045e3;
+.fadeOutLeft{opacity: 0;}
+#canvas{z-index: -1;}
+.normal {
+    .indeximg2{position: absolute; bottom: 2.5vh; left: 0;width: 100%;}
+    .indeximg3{position: absolute; bottom: 6.5vh; left: 0;width: 100%;}
+    .indeximg3{animation:triananimate 6s ease-in infinite;}
+@keyframes triananimate {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(220%)}
+}
+    .indeximg4{position: absolute; bottom: 4.5vh; left: 8vw;width: 74vw;}
+    .indeximg5{position: absolute; bottom: 0; left: 0;width: 100%;}
+    touch-action: none;
+   width: 100%;height: 100%; text-align: center;
+    .arowUpImg{ position: fixed; bottom: 18vh; left: 50%; transform: translateX(-50%);width: 9.3vw; z-index: 11;}
+    .logoImg{ width:51vw; margin-top: 7.6vw;}
+    .monthtextImg{ width:57vw; margin-top: 9.7vw;}
+    .textImg{width: 82.6vw;margin-top: 8vw;}
+    .text2Img{width: 82.6vw;}
+    .subSection{width: 100vw; height: 100vh; overflow: hidden;}
+    .index1{ overflow: auto;}
+    .swiper-container{ position: absolute; left: 0; top: 0; right: 0; bottom: 0;touch-action: none;}
+    .am-carousel-vertical{height:100vh!important;}
+    li,.slick-slide{height:100vh}
+    .slick-slider{position: absolute; left: 0; top: 0;z-index: 9;}
+    .btn{right: 15px; bottom: 15px; font-size: 4vw;  color:#fff;height: 11.2vw; border-radius: 6vw; background-color: $color;width: 85vw; line-height: 11.2vw; margin: 21.7vw auto 0;}
+    button{display: none!important}
+    .slidebg{position: absolute; left: 3.3vw; right: 3.3vw; top:2.6vw;  background-color: rgba(255,255,255,.8); 
+        padding:4.5vh 8.6vw 0; height: 89.5vh; font-size: 3.4vw; text-align: left; 
+        .title{ text-align: left;margin-bottom: 5vh;
+            img{width:31vw}
+        }
+        .line{width: 8.6vw; background-color: $color; height: 2px;}
+    }
+    .swiper-slide{ display:block!important}
+    .slide1{
+        .zongshu{ text-indent: 2em;line-height: 1.9;
+            span{color:$color}
+        }
+        img{width: 12.6vw;}
+        .slideBox{margin-top: 8.6vh;}
+        .slideContent{width: 100%; clear: both; display: flex;
+            &:last-child{margin-top: 7vh;
+                img{width: 13.8vw;}
+            }
+        }
+        .l-content{width: 18vw;padding-left: 1.3vw;}
+        .r-content{ text-align:left;
+            p{font-size: 3.2vw;margin-bottom: 1.5vw;margin-top: -2vw;}
+            .money{ font-size: 7.7vw;color:$color; padding-top: .5vw;
+                span{font-size: 3.2vw;}
+            }
+        }
+    }
+    .slide2{ text-align: center;
+        .title{ margin-bottom: 13.5vw;}
+        .line{display: block; margin: 0 auto}
+        img{width: 16vw;}
+        .slideContent{
+            img{margin-bottom: 5vw;}
+            &:last-child{
+                margin-top: 20vw;
+                img{width:13vw;}
+            }
+            p{font-size: 3.2vw;margin-bottom: 1.5vw;margin-top: -2vw;}
+            .money{ font-size: 7.7vw;color:$color;
+                span{font-size: 3.2vw;}
+            }
+        }
+    }
+    .slide3{
+        .echart1{height: 60vw; margin: 0 auto;
+            // .r-content{
+            //   width: 41.8vw;height: 41.8vw;
+            // }
+            img{width: 14vw; position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);}
+        }
+       .slideContent{border: solid 1px $color;width: 76.5vw; height:18.1vw; display: flex;margin-bottom: 5vw; align-items: center;
+        .l-con{width: 40%; text-align:center; font-size: 6.7vw; color:$color}
+        .line-v{ width: 2px; height: 50%; background-color: $color;}
+        .r-con{
+            padding-left: 3vw;
+            p{margin: 0; margin-bottom: .8vw;}
+            .money{color:$color; font-size: 4vw;}
+        }
+    } 
+    }
+    .slide4{
+        .slideContent{width: 100%; height:18.1vw; display: flex;margin-bottom: 10.5vw; align-items: center;
+            .l-con{width: 27%; text-align:center; font-size: 6.7vw; color:$color;padding-left: 8%;
+                img{width: 12.6vw}
+            }
+            &:nth-child(2){
+                img{width: 8.5vw;}
+            }
+            .line{background-color: $color; margin-bottom: 1vw;}
+            .r-con{
+                p{margin: 0; margin-top: -3vw; margin-bottom: 2vw}
+                .money{color:$color; font-size: 6vw;
+                    span{font-size: 4vw}
+                }
+            }
+        }
+    }
+    .slide6{
+        .echart1{height: 60vw; margin: 0 auto; margin-top: -10vw; margin-bottom: 10vw;}
+        .slideBox-wrap>div{
+            &:first-child{.l-con{color:#0dcfef;
+                &::after{ background-color: #0dcfef; }
+            }}
+            &:nth-child(2){.l-con{color:#ffc33a;  &::after{ background-color: #ffc33a; }}}
+            &:nth-child(3){.l-con{color:#8a58f1;  &::after{ background-color: #8a58f1; }}}
+            &:nth-child(4){.l-con{color:#de5ae6;  &::after{ background-color: #de5ae6; }}}
+            &:nth-child(5){.l-con{color:#e8505f;  &::after{ background-color: #e8505f; }}}
+            &:last-child(6){.l-con{color:#2f4beb;  &::after{ background-color: #2f4beb; }}}
+        }
+        .slideContent{width: 100%;display: flex;margin-bottom: 1.5vw; align-items:baseline;
+            .l-con{width: 44%; position: relative;padding-left: 10%;
+                &::after{
+                    display: block; content:'';width: 1vw; height: 1vw; background-color: #0dcfef; position: absolute; left: 8%; top: 50%; margin-top: -0.5vw;
+                }
+            }
+            .r-con{width: 46%;
+                .money{ font-size: 6.4vw;
+                    span{font-size: 3.4vw;}
+                }
+            }
+        }
+    }
+    .slide7{
+        .slideContent{width: 100%;display: flex;margin-bottom: 1.5vw;
+            // &:nth-child(-1){
+            //     .p-box{ background-color: $color; }
+            // }
+            .s-con{text-align: center;width: 50%; margin-bottom: 18vw;
+                &>img{ height: 13.3vw; margin-bottom: 3.5vw;
+                    &.only-img{width: 24vw; height: auto}
+                }
+                p{font-size: 3.2vw;margin-bottom: 1.5vw;margin-top: -2vw;}
+                .line{ display:block; margin: 0 auto}
+                .money{ font-size: 8.4vw;color:$color; margin-top: 1vw;
+                    span{font-size: 3.4vw;}
+                }
+                .percent{ display: flex; align-items: center; margin-bottom:4vw; margin-top: 3vw; 
+                  
+                    img{width: 2.6vw; height: auto; margin-right:3vw;}
+                    .p-box{ height: 7vw; width: 50%; background-color: $color;color:#fff; display:flex; align-items: center; text-indent: 1.5vw;}
+                    .p-box2{ background-color: #f7666d}
+                }
+            }
+            .s-con2{
+                text-align: left; padding-top: 9vw;
+            }
+        }
+        .humanNum{ display: inline-block; text-align: left; position: relative;display: inline-block; vertical-align: middle;width: 180px;}
+.humanNum:after{display: block;content: attr(data-hunmans); color:#fff; text-align:left; font-size: 14px; position: absolute; left:0; top: 0; text-indent: 5px; height: 7vw; line-height: 7vw;}
+.humanNum{ background-color:#0068ea; }
+.humanNum{background-color:#f7666d; }
+    }
+    .slide8{
+        color:#222; padding-top: 18.7vw;
+        p{
+            span{font-size: 6vw; font-weight: bold}
+        }
+        img{border: solid 3vw $color;border-radius: 8px; width: 41vw; margin-top: 10vw;}
+    }
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+    .normal .slidebg{height: 75.5vh}
+  }
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio:3) {
+    .normal .slidebg{height: 75.5vh}
+  }
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio:2) {
+    .normal .slidebg{height: 75.5vh}
+  }
+.am-activity-indicator {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}    
+.normal .slide6 .echart1{ margin-left: -8vw; margin-right:-8vw; }
+.normal .slide3 .echart1{ margin-left: -8vw; margin-right:-8vw; }
