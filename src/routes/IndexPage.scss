@@ -13,7 +13,7 @@ $color:#6045e3;
     .indeximg5{position: absolute; bottom: 0; left: 0;width: 100%;}
     touch-action: none;
    width: 100%;height: 100%; text-align: center;
-    .arowUpImg{ position: fixed; bottom: 18vh; left: 50%; transform: translateX(-50%);width: 9.3vw; z-index: 11;}
+    .arowUpImg{ position: fixed; bottom: 18vh; left: 50%; transform: translateX(-50%);width: 9.3vw; z-index: 11; background: url(../../public/images/arrowup.png) no-repeat center top; background-size: 100% 100%; height: 6.5vw;}
     .logoImg{ width:51vw; margin-top: 7.6vw;}
     .monthtextImg{ width:57vw; margin-top: 9.7vw;}
     .textImg{width: 82.6vw;margin-top: 8vw;}
