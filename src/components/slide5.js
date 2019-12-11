@@ -7,6 +7,7 @@ const Slide1 = (props) => {
   const {curPage, ajaxData} = props && props.props.month
   return (
     <div>
+       <div  className={`${curPage!=0?'animated fadeIn darkbgFadein':''}`}></div>
     <div className='slidebg slide2'>
       <div className={`${curPage==5?'title animated fadeInUp':'title animated fadeOutUp'}`}>
       <img src={title} alt='' />

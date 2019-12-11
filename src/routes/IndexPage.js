@@ -71,10 +71,10 @@ class IndexPage extends React.Component {
        :<ActivityIndicator>...loading</ActivityIndicator>}
        {curPage==8?'':<div className='arowUpImg' alt='' onClick={e => this.slider.slickGoTo(curPage-(-1))}></div>}
         {/* <canvas id='canvas'></canvas> */}
-         <img src={lg} alt='' className={`indeximg2 animated fadeInUp`} />
-        <img src={train} alt='' className={`indeximg3 animated fadeInUp`} />
-        <img src={tree} alt='' className={`indeximg4 animated fadeInUp`} />
-        <img src={brige} alt='' className={`indeximg5 animated fadeInUp`} /> 
+         {/* <img src={lg} alt='' className={`indeximg2 animated fadeInUp`} /> */}
+        {/* <img src={train} alt='' className={`indeximg3 animated fadeInUp`} /> */}
+        {/* <img src={tree} alt='' className={`indeximg4 animated fadeInUp`} /> */}
+        {/* <img src={brige} alt='' className={`indeximg5 animated fadeInUp`} />  */}
       </div>
     )
   }

@@ -33,6 +33,7 @@ const Slide1 = (props) => {
 };
   return (
     <div>
+       <div  className={`${curPage!=0?'animated fadeIn darkbgFadein':''}`}></div>
       <div className='slidebg slide6'>
         <div className={`${curPage==6?'title animated fadeInUp':'title animated fadeOutUp'}`}>
           <img src={title} alt='' />

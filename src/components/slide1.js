@@ -9,11 +9,12 @@ const Slide1 = (props) => {
   const {curPage, ajaxData} = props && props.props.month
   return (
     <div>
+      <div  className={`${curPage!=0?'animated fadeIn darkbgFadein':''}`}></div>
     <div className='slidebg slide1'>
       <div className={`${curPage==1?'title animated fadeInUp':'title animated fadeOutUp'}`}>
       <img src={title} alt='' />
       </div>
-      <div className={`${curPage==1?'zongshu animated fadeInUp':'zongshu animated fadeOutUp'}`}>国佳财富平台截止至{ajaxData[1]?ajaxData[1].data1:''}，平台成交量超过<span>{ajaxData[1]?ajaxData[1].data2:''}</span>万元，用户收益超<span>{ajaxData[1]?ajaxData[1].data3:''}</span>万元。十月份平台顺利完成了对银行资金存管系统的全新升级，优化便捷了转账充值的操作方式，以及恢复了快捷支付充值渠道。平台一直用心经营，在服务效率、用户体验等多方面不断提升，不断优化改进。</div>
+      <div className={`${curPage==1?'zongshu animated fadeInUp':'zongshu animated fadeOutUp'}`}>国佳财富平台截止至{ajaxData[1]?ajaxData[1].data1:''}，平台成交量超过<span>{ajaxData[1]?ajaxData[1].data2:''}</span>万元，用户收益超<span>{ajaxData[1]?ajaxData[1].data3:''}</span>万元。今年平台接入了国家互联网应急中心实时数据报送系统，顺利完成了对资金存管系统的全新升级，平台一直坚守初心 ，在稳健发展、合规运营之路上前行，并与出借人携手共进，共创辉煌。</div>
       <div className='slideBox'>
       <div className={`${curPage==1?'slideContent animated fadeInUp':'slideContent animated fadeOutUp'}`}>
           <div className='l-content'>

@@ -23,7 +23,7 @@ export default {
         // dispatch({type: 'runCanvas'})
       }; 
       //设置标题
-      document.title = '10月份运营月报';
+      document.title = '12月份运营月报';
     },
   },
 

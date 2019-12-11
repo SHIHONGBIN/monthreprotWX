@@ -8,7 +8,7 @@ const Slide1 = (props) => {
   return (
     <div>
       <div>
-        <img src={logo} alt='' className={`${curPage==0?'logoImg animated fadeInUp':'logoImg animated fadeOutUp'}`} />
+        <img src={logo} alt='' className={`${curPage==0?'logoImg animated fadeInUp':'logoImg animated fadeOutUp'}`} /><br />
         <img src={monthtext} alt='' className={`${curPage==0?'monthtextImg animated fadeInUp':'monthtextImg animated fadeOutUp'}`} />
         <img src={text} alt='' className={`${curPage==0?'textImg animated fadeInUp':'textImg animated fadeOutUp'}`} />
         {/* <img src={text2} alt='' className={`${curPage==0?'text2Img animated fadeInUp':'text2Img animated fadeOutUp'}`} /> */}

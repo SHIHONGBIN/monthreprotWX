@@ -13,7 +13,7 @@ export function querys() {
     url = "http://api.pingdainet.com/api/report/GetReportModel";
   }
   var postData = {
-    body: JSON.stringify({"Year": 2019,"Month": 10}),
+    body: JSON.stringify({"Year": 2019,"Month": 11}),
     headers: {
       'content-type': 'application/json'
     },
